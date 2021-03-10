@@ -7,6 +7,15 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+
+        /**
+         * Motion Layout Basic
+         * setContentView(R.layout.activity_main)
+         */
+
+        /**
+         * Motion Layout Coordinator
+         */
+        setContentView(R.layout.motion_coordinator)
     }
 }
