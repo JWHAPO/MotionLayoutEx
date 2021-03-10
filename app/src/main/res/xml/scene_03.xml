@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<MotionScene
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:motion="http://schemas.android.com/apk/res-auto">
 
     <Transition
@@ -17,25 +16,25 @@
                 android:scaleX="2"
                 android:scaleY="2"
                 motion:framePosition="40"
-                motion:motionTarget="@+id/button"/>
+                motion:motionTarget="@+id/button" />
             <KeyAttribute
                 android:rotation="-90"
                 android:scaleX="3"
                 android:scaleY="3"
                 motion:framePosition="80"
-                motion:motionTarget="@+id/button"/>
+                motion:motionTarget="@+id/button" />
 
             <KeyPosition
                 motion:framePosition="40"
                 motion:keyPositionType="parentRelative"
                 motion:motionTarget="@+id/button"
-                motion:percentY="0.35"/>
+                motion:percentY="0.35" />
 
             <KeyPosition
                 motion:framePosition="80"
                 motion:keyPositionType="parentRelative"
                 motion:motionTarget="@+id/button"
-                motion:percentY="0.75"/>
+                motion:percentY="0.75" />
         </KeyFrameSet>
     </Transition>
 

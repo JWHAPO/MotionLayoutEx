@@ -7,7 +7,7 @@
         <OnSwipe
             motion:dragDirection="dragLeft"
             motion:touchAnchorId="@+id/button"
-            motion:touchAnchorSide="right"/>
+            motion:touchAnchorSide="right" />
     </Transition>
 
 </MotionScene>
